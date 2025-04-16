@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime, timezone
 
-def sync_time_with_server(url="https://top.cafe.daum.net/"):
+def sync_time_with_server(url="https://artist.mnetplus.world/main/stg/izna"):
     # 요청 전 시간 (UTC)
     t1 = datetime.now(timezone.utc)
 
@@ -31,10 +31,10 @@ def sync_time_with_server(url="https://top.cafe.daum.net/"):
 
 sync_time_with_server()
 
-#다음카페"
+#플챗
 #시간 동기화 0.001초 이내
 # === 서버 시간 동기화 측정 ===
-# 서버 시간 (UTC): 2025-04-16 12:54:36+00:00
-# 클라이언트 추정 시간 (요청 중간): 2025-04-16 12:54:36.468213+00:00
-# 왕복 시간 (RTT): 0.040초
-# 추정 시간 오차: -0.468초
+# 서버 시간 (UTC): 2025-04-16 11:53:24+00:00
+# 클라이언트 추정 시간 (요청 중간): 2025-04-16 11:53:24.084645+00:00
+# 왕복 시간 (RTT): 0.234초
+# 추정 시간 오차: -0.085초
